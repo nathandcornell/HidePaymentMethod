@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Elgentos_HidePaymentMethod>
+        <RBCommunications_HidePaymentMethod>
             <active>true</active>
             <codePool>local</codePool>
-        </Elgentos_HidePaymentMethod>
+        </RBCommunications_HidePaymentMethod>
     </modules>
 </config>

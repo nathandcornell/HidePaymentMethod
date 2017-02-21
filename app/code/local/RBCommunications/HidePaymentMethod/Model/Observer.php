@@ -1,5 +1,5 @@
 <?php
-class Elgentos_HidePaymentMethod_Model_Observer {
+class RBCommunications_HidePaymentMethod_Model_Observer {
 
     public function hidePaymentMethod($event){
         $method = $event->getMethodInstance();

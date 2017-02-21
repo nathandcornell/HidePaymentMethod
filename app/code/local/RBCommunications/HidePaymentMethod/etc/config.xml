@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Elgentos_HidePaymentMethod>
+        <RBCommunications_HidePaymentMethod>
             <version>1.0.0</version>
-        </Elgentos_HidePaymentMethod>
+        </RBCommunications_HidePaymentMethod>
     </modules>
     <global>
         <models>
-            <elgentos_hidepaymentmethod>
-                <class>Elgentos_HidePaymentMethod_Model</class>
-            </elgentos_hidepaymentmethod>
+            <rbcommunications_hidepaymentmethod>
+                <class>RBCommunications_HidePaymentMethod_Model</class>
+            </rbcommunications_hidepaymentmethod>
         </models>
     </global>
     <frontend>
@@ -18,7 +18,7 @@
                 <observers>
                     <disable_banktransfer_payment_frontend>
                         <type>model</type>
-                        <class>Elgentos_HidePaymentMethod_Model_Observer</class>
+                        <class>RBCommunications_HidePaymentMethod_Model_Observer</class>
                         <method>hidePaymentMethod</method>
                     </disable_banktransfer_payment_frontend>
                 </observers>
