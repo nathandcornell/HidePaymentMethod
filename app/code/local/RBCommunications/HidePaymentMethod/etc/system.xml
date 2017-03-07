@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config>
     <sections>
-        <hidepayment translate="label" module="rbcommunications_hidepaymentmethod">
+        <hidepaymentmethod translate="label" module="rbcommunications_hidepaymentmethod">
             <label>Hide Payment Methods</label>
             <tab>sales</tab>
             <frontend_type>text</frontend_type>
@@ -31,6 +31,6 @@
                     </fields>
                 </hide>
             </groups>
-        </hidepayment>
+        </hidepaymentmethod>
     </sections>
 </config>

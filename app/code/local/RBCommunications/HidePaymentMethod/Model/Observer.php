@@ -5,7 +5,7 @@ class RBCommunications_HidePaymentMethod_Model_Observer {
         $method = $event->getMethodInstance();
         $result = $event->getResult();
         $code   = $method->getCode();
-        $reportIds = explode(',', Mage::getStoreConfig('hidepayment/hide/methods'));
+        $reportIds = explode(',', Mage::getStoreConfig('hidepaymentmethod/hide/methods'));
 
         if(in_array($method->getCode(), $reportIds) && ! Mage::getIsDeveloperMode()) {
             $result->isAvailable = false;

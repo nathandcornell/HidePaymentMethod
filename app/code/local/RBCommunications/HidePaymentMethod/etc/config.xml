@@ -6,6 +6,11 @@
         </RBCommunications_HidePaymentMethod>
     </modules>
     <global>
+        <helpers>
+            <rbcommunications_hidepaymentmethod>
+                <class>RBCommunications_HidePaymentMethod_Helper</class>
+            </rbcommunications_hidepaymentmethod>
+        </helpers>
         <models>
             <rbcommunications_hidepaymentmethod>
                 <class>RBCommunications_HidePaymentMethod_Model</class>
