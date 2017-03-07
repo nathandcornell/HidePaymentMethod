@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <hidepayment translate="label" module="rbcommunications_hidepaymentmethod">
+            <label>Hide Payment Methods</label>
+            <tab>sales</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>999</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>0</show_in_store>
+            <groups>
+                <hide translate="label">
+                    <label>Hidden Payment Methods</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <methods translate="label">
+                            <label>Hidden Payment Methods</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <sort_order>1</sort_order>
+                            <source_model>adminhtml/system_config_source_payment_allmethods</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <can_be_empty>1</can_be_empty>
+                        </methods>
+                    </fields>
+                </hide>
+            </groups>
+        </hidepayment>
+    </sections>
+</config>
